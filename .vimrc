@@ -108,7 +108,7 @@ Plug 'ecomba/vim-ruby-refactoring'
 
 "*****************************************************************************
 "*****************************************************************************
-Plug 'justinmk/vim-gtfo'
+Plug 'https://github.com/justinmk/vim-gtfo'
 Plug 'wincent/terminus'
 Plug 'itchyny/lightline.vim'
 
@@ -176,10 +176,6 @@ let g:session_command_aliases = 1
 syntax on
 set ruler
 set number
-
-" hi TabLineFill c/ermfg=Green ctermbg=DarkGrey
-" hi TabLine ctermfg=LightGrey ctermbg=DarkGrey
-" hi TabLineSel ctermfg=Black ctermbg=LightGrey
 
 let no_buffers_menu=1
 if !exists('g:not_finish_vimplug')
